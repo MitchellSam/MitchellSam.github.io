@@ -4,42 +4,47 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width initial-scale=1.0'>
     <title>Mitchell Sam</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <!-- <script defer src="/bundle.js"></script> -->
   </head>
   <body>
     <!-- <div id="app"></div> -->
+    <a name="home"></a>
 
     <div id="app">
-      <a name="intro"></a>
 
       <div id="header"> 
         <div>
           <h1>Mitchell Sam</h1>
           <h2>Fullstack Engineer</h2>
         </div>
-        <div id="links">
-          <a href="#intro">Home</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#work-exp">Work Experience</a>        
-          <a href="#contact">Contact</a>
-        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#work-exp">Work Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
   
       <div id="intro">
-        <div id="portrait">[Insert picture here]</div>
-        <div id="bio">
-          <h2>Hello, I'm Mitchell.</h2>
-          <div>Past work experience, and exposure to different job roles has fueled my desire to switch to a more technical career and join a coding bootcamp. I am now a fullstack developer looking for a fulfilling career with many opportunities for continuous learning and self improvement.</div>
-          <div>Javascript, React, Redux, Sequelize, Express, Node, HTML, CSS, PostgreSQL, SQL, Git, Firebase, VBA, Bash, Agile, Kanban</div> 
-          <div>Knowledgeable: Heroku, Travis, Mocha, Chai, Jasmine, Mathematica, Python, R, Ruby, Webpack</div>    
+        <div class="intro">
+          <div id="portrait">[Insert picture here]</div>
+          <div id="bio">
+            <h2>Hello, I'm Mitchell.</h2>
+            <div>Past work experience, and exposure to different job roles has fueled my desire to switch to a more technical career and join a coding bootcamp. I am now a fullstack developer looking for a fulfilling career with many opportunities for continuous learning and self improvement.</div>
+            <div>Javascript, React, Redux, Sequelize, Express, Node, HTML, CSS, PostgreSQL, SQL, Git, Firebase, VBA, Bash, Agile, Kanban</div> 
+            <div>Knowledgeable: Heroku, Travis, Mocha, Chai, Jasmine, Mathematica, Python, R, Ruby, Webpack</div>    
+          </div>
         </div>
       </div>
   
       <div id="portfolio">
         <a name="portfolio"></a>
         <h2 id="portfolio-header">Projects</h2>
-        <div id="portfolio-1">
+
+        <div class="portfolio" id="portfolio-1">
           <div class="Portfolio-picture">[Insert picture here]</div>
           <div class="portfolio-content">
             <h3>Zero Patients</h3>
@@ -53,7 +58,7 @@
           </div>
         </div>
 
-        <div id="portfolio-2">
+        <div class="portfolio" id="portfolio-2">
           <div class="Portfolio-picture">[Insert picture here]</div>
           <div class="portfolio-content">
             <h3>Squid Invaders</h3>
@@ -67,7 +72,7 @@
           </div>
         </div>
 
-        <div id="portfolio-3">
+        <div class="portfolio" id="portfolio-3">
           <div class="Portfolio-picture">[Insert picture here]</div>
           <div class="portfolio-content">
             <h3>Joke Shop</h3>
@@ -86,7 +91,7 @@
       <div id="work-exp">
         <a name="work-exp"></a>
         <h3 id="work-exp-header">Work Experience</h3>
-        <div id="work-exp-1">
+        <div class="work-exp" id="work-exp-1">
           <div class="work-exp-picture">[Insert picture here]</div>
           <div class="work-exp-content">
             <h3>Business Analyst Consultant at Fannie Mae</h3>
@@ -102,7 +107,7 @@
           </div>
         </div>
 
-        <div id="work-exp-2">
+        <div class="work-exp" id="work-exp-2">
           <div class="work-exp-picture">[Insert picture here]</div>
           <div class="work-exp-content">
             <h3>Database Technician at Amelotte International</h3>
@@ -116,7 +121,7 @@
           </div>
         </div>
 
-        <div id="work-exp-3">
+        <div class="work-exp" id="work-exp-3">
           <div class="work-exp-picture">[Insert picture here]</div>
           <div class="work-exp-content">
             <h3>Information Technology Specialist at Ascend Inc.</h3>
